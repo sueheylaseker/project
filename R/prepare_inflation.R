@@ -53,3 +53,4 @@ inflation <- inflation_raw %>%
 inflation_path <- here("data", "processed", "inflation.rds")
 fs::dir_create(fs::path_dir(inflation_path))
 write_rds(inflation_raw, inflation_path, compress = "gz")
+

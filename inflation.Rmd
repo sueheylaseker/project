@@ -67,8 +67,8 @@ print("Hello World! Python here, do you miss R already?")
 ```
 
 usethis::use_git_config(
-  user.name = "Jane Doe", # <-- change to your name
-  user.email = "jane@example.org", # <-- and your email
+  user.name = "Süheyla Seker", # <-- change to your name
+  user.email = "s.seker@unibas.ch", # <-- and your email
   init.defaultBranch = "main") # <-- not necessary but kinder than 'master'
 
 usethis::use_git()
